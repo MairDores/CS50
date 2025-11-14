@@ -1,0 +1,18 @@
+#Define Pay
+
+    
+hrs = input("Enter Hours:")
+rate = input("Enter Rate:")
+pay = float()
+
+hrs = float(hrs)
+rate = float(rate)
+
+def computepay(hrs, rate, pay):
+    if float(hrs) <= 40:
+        pay = hrs * float(rate)
+    else:
+        pay = (float(hrs) - 40) * 1.5 + 40 * float(rate)
+
+total = computepay(45, 10.5, pay)
+print("Pay", pay)
