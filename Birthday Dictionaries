@@ -1,0 +1,15 @@
+#Birthday Dictionaries
+
+Birthday_Dict = {"Albert Einstein": "01 de Janeiro 1967",
+                "Benjamin Franklin" : "07 de Março 1860",
+                "Ada Lovelace" : "17 de Setembro 1976",
+                "Ruben Amorim" : "27 de Janeiro 1985"}
+
+cientist = input("\n>>> Welcome to the birthday dictionary. We know the birthdays of: \nAlbert Einstein\nBenjamin Franklin\nAda Lovelace\nRuben Amorim\n\n>>> Who's birthday do you want to look up? \n")
+
+def Choose_Birthday(cientist, Birthday_Dict):
+    print("\nTheir birthday is", Birthday_Dict[cientist], "\n")
+
+Choose_Birthday(cientist, Birthday_Dict)
+
+

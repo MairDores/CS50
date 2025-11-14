@@ -1,0 +1,15 @@
+#Element Search 
+
+num = int(input('Write a number: '))
+listA = [4,2,8,43,21,2,4,5,92,16,7,45,22,1]
+listA.sort()
+print('Sorted List: ',listA)
+
+def ElementSearch(listA, num):
+    if num in listA:
+        return True
+    else: 
+        return False
+    
+result = ElementSearch(listA, num)
+print("Final result:", result)

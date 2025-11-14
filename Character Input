@@ -1,0 +1,14 @@
+#Character input
+from datetime import date
+current_date = date.today()
+
+name = input('What\'s your name? ')
+age =  int(input('And your age? '))
+year = current_date.year
+
+def turn100(age, year, name):
+    BirthYear = year - age
+    HundredYear = BirthYear + 100
+    print(name, HundredYear, 'is the year when you\'ll turn 100 years old')
+    
+turn100(age, year, name)

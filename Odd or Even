@@ -1,0 +1,7 @@
+#Odd or Even
+
+num = int(input('Write a number, any number: '))
+if num % 2 == 0 :
+    print('Your number is even! :D')
+else:
+    print('Unfortunately, your number is odd :(')
