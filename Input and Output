@@ -1,0 +1,9 @@
+var_a = float(input('Enter a value: '))
+var_b = float(input('Enter another value: '))
+
+print("The addition result is: " +  str(var_a + var_b))
+print("The subtraction result is: " + str(var_a - var_b))
+print("The multiplication result is: " + str(var_a * var_b))
+
+print("\nThat's all, folks!")
+
